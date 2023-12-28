@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon-theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-colors='hsl(128, 67%, 38%)' class="colors-item colors-item--green"></div>
+      <div data-colors='hsl(214, 100%, 35%)' class="colors-item colors-item--blue"></div>
+      <div data-colors='hsl(32, 100%, 49%)' class="colors-item colors-item--orange"></div>
+      <div data-colors='hsl(305, 85%, 31%)' class="colors-item colors-item--purple"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <article class="card card-profile">
+        <div class="card__image-container">
+          <img src="./assets/images/profile.jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">JuanjoDeveloper</h2>
+          <p class="class__subtitle">Front end developer</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:juanjocanoferreira@gmail.com">juanjocanoferreira@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:+34 625 98 35 42">+34 625 98 35 42</a>
+          </div>
+          <p class="card__text">
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+             Fugit quidem ab esse deserunt, magnam ea magni. 
+             Eum doloremque aliquam placeat in illum maxime est. 
+             Dolorem soluta in ea magni voluptatum.
+          </p>
+        </div>
+
+      </article>
+    </section>
+    <section class="column column--right"></section>
+
+
+  </main>
+
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
