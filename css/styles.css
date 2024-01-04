@@ -298,6 +298,7 @@ body.dark{
     .proyect__tags{
         width: 325px;
         font-size: 0.8rem;
+        margin-bottom:3em ;
     }
 }
 
