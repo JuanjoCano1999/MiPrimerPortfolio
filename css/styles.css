@@ -23,6 +23,11 @@ img{
     display: block;
 }
 
+h3{
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
 body{
     margin: 0; 
     background-color: var(--bg-color);
